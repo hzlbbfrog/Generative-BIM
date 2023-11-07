@@ -1,7 +1,5 @@
 <div align="center">
   <img src="./figures/Generative-BIM.png" width="50%">
-</br>
-  <img src="./figures/Generative-BIM2.png" width="50%">
 </div>
 
 # Generative-BIM
