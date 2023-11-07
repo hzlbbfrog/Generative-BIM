@@ -3,6 +3,8 @@
   <img src="./figures/Generative-BIM.png" width="50%">
 </div>
 
+![Title](figures/Title.png)
+
 # Generative-BIM
 This repository is the official implementation of the **Generative** Structural Design Integrating **BIM** and Diffusion Model **(Generative-BIM)**.  
 
