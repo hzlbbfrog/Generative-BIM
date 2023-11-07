@@ -1,6 +1,7 @@
 ![Logo](figures/Generative-BIM.png)
+![Logo](figures/Generative-BIM2.png)
 # Generative-BIM
-This repository is the official implementation of the **Generative-BIM**.  
+This repository is the official implementation of the **Generative** Structural Design Integrating **BIM** and Diffusion Model **(Generative-BIM)**.  
 
 
 # Introduction
