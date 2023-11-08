@@ -5,7 +5,7 @@
 
 # Generative-BIM
 This repository is the official implementation of the **Generative** Structural Design Integrating **BIM** and Diffusion Model **(Generative-BIM)**.  
-- :orange: [[ArXiv Paper](https://arxiv.org/abs/2303.05499)]
+- :orange: [[ArXiv Paper](https://arxiv.org/abs/2311.04052)]
 - :watermelon:  [[Project page](http://zl-he.com/Generative-BIM/)]
 
 # Introduction
