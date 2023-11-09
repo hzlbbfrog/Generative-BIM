@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="./figures/Title.png">
+  <img src="./figures/Title.svg">
   <img src="./figures/Generative-BIM.svg" width="50%">
 </div>
 
