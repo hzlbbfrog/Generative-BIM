@@ -1,6 +1,6 @@
 <div align="center">
   <img src="./figures/Title.png">
-  <img src="./figures/Generative-BIM.png" width="50%">
+  <img src="./figures/Generative-BIM.svg" width="50%">
 </div>
 
 # Generative-BIM
