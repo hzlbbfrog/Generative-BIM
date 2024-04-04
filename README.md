@@ -10,10 +10,10 @@ This repository is the official implementation of the **Generative** Structural 
 
 ## ✒️ Introduction
 This repository mainly includes 4 parts:  
+- [ ] **Structural design pipeline integrating BIM and generative AI**  
+      Namely, Python and Dynamo code to convert 3D BIM models to 2D architectural drawings and to convert 2D structural drawings to 3D BIM models. Link → [Structural design pipeline](https://github.com/hzlbbfrog/Generative-BIM/tree/main/Structural%20design%20pipeline)
 - [ ] **Modified-dataset**.
-- [ ] Structural design pipeline integrating BIM and generative AI  
-      Namely, **Python and Dynamo code** to convert 3D BIM models to 2D architectural drawings and to convert 2D structural drawings to 3D BIM models. Link → [Structural design pipeline](https://github.com/hzlbbfrog/Generative-BIM/tree/main/Structural%20design%20pipeline)
-- [ ] Python code of **P**hysics-based **C**onditional **D**iffusion **M**odel **(PCDM)**.
+- [ ] Python code of a **P**hysics-based **C**onditional **D**iffusion **M**odel **(PCDM)**.
 - [ ] **Evaluation code** including Score_IoU and FID.
 
 ## 📅 Updates
