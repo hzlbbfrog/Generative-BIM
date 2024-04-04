@@ -7,7 +7,7 @@ This is a simple tutorial about implementing the pipeline.
 You can refer to.
 
 ## 👌 Stage 3: From 2D Structural drawings to 3D BIM models
-Here, we take [test (1)_7degree.png](https://github.com/hzlbbfrog/Generative-BIM/blob/main/3D%20BIM_2D%20drawings/Stage_3-From_image_2_BIM/test%20(1)_7degree.png) as an example to illustrate the process to generate the shear walls.
+Here, we take [test (1)_7degree.png](https://github.com/hzlbbfrog/Generative-BIM/blob/main/Structural%20design%20pipeline/Stage_3-From_image_2_BIM/test%20(1)_7degree.png) as an example to illustrate the process to generate the shear walls.
 ### Step 1. Generate floor plan using Dynamo
 - Firstly, we open a new Revit project.  
 - Click **Manage**. Click **Dynamo**.  
@@ -18,14 +18,14 @@ Here, we take [test (1)_7degree.png](https://github.com/hzlbbfrog/Generative-BIM
 
 - **Run it** and we can see the generated floor plans:  
 <div align="center">
-  <img src="./figures/Generated_Floor_Plans.png" width="100%">
+  <img src="./figures/Stage_3-Generated_Floor_Plans.png" width="100%">
 </div>
 
 ### Step 2. Generate shear walls on Level 1 using Dynamo
 - Open **Shear_walls_From_Excel_to_Revit.dyn**.  
 - **Run it** and we can see the shear walls on Level 1, as shown below:  
 <div align="center">
-  <img src="./figures/Shear_walls_for_Level1.png" width="100%">
+  <img src="./figures/Stage_3-Shear_walls_for_Level1.png" width="100%">
 </div>
 
 **Note**: For the type of shear walls, you can choose one type in the Dynamo code. If you have the customized requirement, first, you can define a customized wall in Revit and then specify it in the Dynamo code.
@@ -39,12 +39,12 @@ Here, we don't consider this step for demonstration purposes.
 We can easily accomplish it in Revit.  
 - **Choose** and copy **(Ctrl C)** the elements on Level 1.
 <div align="center">
-  <img src="./figures/Copy_walls.png" width="60%">
+  <img src="./figures/Stage_3-Copy_walls.png" width="60%">
 </div>
 
 - Click **Paste**. Click **Aligned to Selected Levels**.
 <div align="center">
-  <img src="./figures/Paste_walls_1.png" width="60%">
+  <img src="./figures/Stage_3-Paste_walls_1.png" width="60%">
 </div>
 
 - **Done**!
