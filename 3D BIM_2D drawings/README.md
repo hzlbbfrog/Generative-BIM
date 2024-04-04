@@ -7,7 +7,7 @@ This is a simple tutorial about implementing the pipeline.
 You can refer to.
 
 ## 👌 Stage 3: From 2D Structural drawings to 3D BIM models
-Here, we take [test (1)_7degree.png](https://github.com/hzlbbfrog/Generative-BIM/blob/main/3D%20BIM_2D%20drawings/From_image_2_BIM/test%20(1)_7degree.png) as an example to illustrate the process to generate the shear walls.
+Here, we take [test (1)_7degree.png](https://github.com/hzlbbfrog/Generative-BIM/blob/main/3D%20BIM_2D%20drawings/Stage_3-From_image_2_BIM/test%20(1)_7degree.png) as an example to illustrate the process to generate the shear walls.
 ### Step 1. Generate floor plan using Dynamo
 - Firstly, we open a new Revit project.  
 - Click **Manage**. Click **Dynamo**.  
