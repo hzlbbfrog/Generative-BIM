@@ -49,5 +49,5 @@ We can easily accomplish it in Revit.
 
 - **Done**!
 <div align="center">
-  <img src="./figures/Paste_walls_2.png" width="60%">
+  <img src="./figures/Stage_3-Paste_walls_2.png" width="60%">
 </div>
