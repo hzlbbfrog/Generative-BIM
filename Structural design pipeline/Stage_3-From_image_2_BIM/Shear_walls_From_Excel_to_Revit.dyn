@@ -1,0 +1,541 @@
+{
+  "Uuid": "23cbe20c-7d95-49a5-a11c-f5bdbbbb2ac3",
+  "IsCustomNode": false,
+  "Description": "",
+  "Name": "Shear_walls_From_Excel_to_Revit",
+  "ElementResolver": {
+    "ResolutionMap": {}
+  },
+  "Inputs": [],
+  "Outputs": [],
+  "Nodes": [
+    {
+      "ConcreteType": "Dynamo.Graph.Nodes.ZeroTouch.DSFunction, DynamoCore",
+      "NodeType": "FunctionNode",
+      "FunctionSignature": "DSOffice.Data.ImportExcel@var,string,bool,bool",
+      "Id": "cc8298e73b7b49719270fad00d5d761c",
+      "Inputs": [
+        {
+          "Id": "2deda1271c93444c9a56b30b06040cb6",
+          "Name": "file",
+          "Description": "File representing the Excel workbook\n\nvar",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        },
+        {
+          "Id": "913869241a6d4f7cb3bfd54b2e9e1862",
+          "Name": "sheetName",
+          "Description": "Name of the worksheet containing data\n\nstring",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        },
+        {
+          "Id": "047061c3528b4290b0a3639ca769a636",
+          "Name": "readAsStrings",
+          "Description": "Toggle to read cells as strings\n\nbool\nDefault value : false",
+          "UsingDefaultValue": true,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        },
+        {
+          "Id": "16d7e48a28b8446d8726c62d953f3c71",
+          "Name": "showExcel",
+          "Description": "Toggle to show excel's main window\n\nbool\nDefault value : true",
+          "UsingDefaultValue": true,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Outputs": [
+        {
+          "Id": "8754e3c514af45218e2f26796ad3ea51",
+          "Name": "data",
+          "Description": "Rows of data from the Excel worksheet",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Replication": "Auto",
+      "Description": "Read data from a Microsoft Excel spreadsheet. Data is read by row and returned in a series of lists by row. Rows and columns are zero-indexed; for example, the value in cell A1 will appear in the data list at [0,0]. This node requires Microsoft Excel to be installed.\n\nData.ImportExcel (file: var, sheetName: string, readAsStrings: bool = false, showExcel: bool = true): var[][]"
+    },
+    {
+      "ConcreteType": "CoreNodeModels.Input.StringInput, CoreNodeModels",
+      "NodeType": "StringInputNode",
+      "InputValue": "Sheet1",
+      "Id": "df205bbac1b149abb83caac70e87d97b",
+      "Inputs": [],
+      "Outputs": [
+        {
+          "Id": "1ae979b2aee04a1687676ba0f2552053",
+          "Name": "",
+          "Description": "String",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Replication": "Disabled",
+      "Description": "Creates a string."
+    },
+    {
+      "ConcreteType": "CoreNodeModels.Input.Filename, CoreNodeModels",
+      "HintPath": "E:\\1_Research\\2_BIMGAN\\3D BIM_2D drawings\\From_image_2_BIM\\Shear_walls.xls",
+      "InputValue": ".\\Shear_walls.xls",
+      "NodeType": "ExtensionNode",
+      "Id": "180d3c362c9b44569d05cdadad688df9",
+      "Inputs": [],
+      "Outputs": [
+        {
+          "Id": "ed6c00e6e0604ef894d3ec88d1932e94",
+          "Name": "",
+          "Description": "文件路径",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Replication": "Disabled",
+      "Description": "Allows you to select a file on the system to get its file path."
+    },
+    {
+      "ConcreteType": "CoreNodeModels.Input.FileObject, CoreNodeModels",
+      "NodeType": "ExtensionNode",
+      "Id": "54fe110a66424384b648cd929ff71d21",
+      "Inputs": [
+        {
+          "Id": "dfd580ee08d0460b95e869c10987e2c2",
+          "Name": "path",
+          "Description": "文件路径(字符串)。",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Outputs": [
+        {
+          "Id": "e9c3cb6324fc4b9b92a639982498fdeb",
+          "Name": "file",
+          "Description": "文件对象",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Replication": "Disabled",
+      "Description": "Creates a file object from a path."
+    },
+    {
+      "ConcreteType": "Dynamo.Graph.Nodes.CodeBlockNodeModel, DynamoCore",
+      "NodeType": "CodeBlockNode",
+      "Code": "3000;",
+      "Id": "0b3769be31dd4373a5fd372b3203b0a8",
+      "Inputs": [],
+      "Outputs": [
+        {
+          "Id": "6aa16347d74a4746951635471f0f3db7",
+          "Name": "",
+          "Description": "Value of expression at line 1",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Replication": "Disabled",
+      "Description": "Allows for DesignScript code to be authored directly"
+    },
+    {
+      "ConcreteType": "DSRevitNodesUI.WallTypes, DSRevitNodesUI",
+      "SelectedIndex": 15,
+      "SelectedString": "Generic - 200mm - Filled",
+      "NodeType": "ExtensionNode",
+      "Id": "59a17c98e40a43a384180bbbc84dddd6",
+      "Inputs": [],
+      "Outputs": [
+        {
+          "Id": "2d039b819f3b4a9d98d1621a49a7fdf8",
+          "Name": "Wall Type",
+          "Description": "选定的 Wall Type",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Replication": "Disabled",
+      "Description": "All wall types available in the document."
+    },
+    {
+      "ConcreteType": "Dynamo.Graph.Nodes.ZeroTouch.DSFunction, DynamoCore",
+      "NodeType": "FunctionNode",
+      "FunctionSignature": "Revit.Elements.Wall.ByCurveAndHeight@Autodesk.DesignScript.Geometry.Curve,double,Revit.Elements.Level,Revit.Elements.WallType",
+      "Id": "8494699d2f3647559d8095ab28412315",
+      "Inputs": [
+        {
+          "Id": "9a7bf80c1af3498d9229109c41930d50",
+          "Name": "curve",
+          "Description": "Curve",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        },
+        {
+          "Id": "18e86fc33bd54454875eb69da612a748",
+          "Name": "height",
+          "Description": "double",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        },
+        {
+          "Id": "11f14c04aad4466ea0820b1e92be5373",
+          "Name": "level",
+          "Description": "Level",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        },
+        {
+          "Id": "2f25fda2dcdd42119e0213806de64226",
+          "Name": "wallType",
+          "Description": "WallType",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Outputs": [
+        {
+          "Id": "f3251fc576cb49b3a088cac3323826d7",
+          "Name": "Wall",
+          "Description": "Wall",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Replication": "Auto",
+      "Description": "Create a Revit Wall from a guiding Curve, height, Level, and WallType\n\nWall.ByCurveAndHeight (curve: Curve, height: double, level: Level, wallType: WallType): Wall"
+    },
+    {
+      "ConcreteType": "Dynamo.Graph.Nodes.ZeroTouch.DSFunction, DynamoCore",
+      "NodeType": "FunctionNode",
+      "FunctionSignature": "DSCore.List.Flatten@var[]..[],int",
+      "Id": "cc98e8d9f07748d1b2bbcb8941a07d0d",
+      "Inputs": [
+        {
+          "Id": "8a3dc5b4ebed4c0dbb552cd31959ba2c",
+          "Name": "list",
+          "Description": "List to flatten.\n\nvar[]..[]",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        },
+        {
+          "Id": "4bfaa58d3a8e402a8a951b73de66ad81",
+          "Name": "amount",
+          "Description": "Layers of list nesting to remove (-1 will remove all list nestings)\n\nint\nDefault value : -1",
+          "UsingDefaultValue": true,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Outputs": [
+        {
+          "Id": "f7c50c568a1547179d4329752151f6fc",
+          "Name": "list",
+          "Description": "Flattened list by amount",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Replication": "Auto",
+      "Description": "Flattens a nested list of lists by a certain amount.\n\nList.Flatten (list: var[]..[], amount: int = -1): var[]..[]"
+    },
+    {
+      "ConcreteType": "PythonNodeModels.PythonNode, PythonNodeModels",
+      "NodeType": "PythonScriptNode",
+      "Code": "import clr\r\nimport Revit\r\nclr.AddReference('ProtoGeometry')\r\nfrom Autodesk.DesignScript.Geometry import *\r\n\r\ndef Get_Curve(List):\r\n    \r\n    Curves = []\r\n    length = len(List[0])\r\n    \r\n    for i in range(length):\r\n        str = List[0][i]\r\n        \r\n        #---------- Get Start_X_value ----------#\r\n        Start_X_position = str.find('X')\r\n        Start_Xcomma_position = str.find(',', Start_X_position) # 找X后面第一个逗号的position\r\n        Start_X_value = str[Start_X_position+4 : Start_Xcomma_position] # get x_value\r\n        Start_X_value = float(Start_X_value) # convert into float\r\n        \r\n        #---------- Get Start_Y_value ----------#\r\n        Start_Y_position = str.find('Y')\r\n        Start_Ycomma_position = str.find(',', Start_Y_position) # 找X后面第一个逗号的position\r\n        Start_Y_value = str[Start_Y_position+4 : Start_Ycomma_position] # get x_value\r\n        Start_Y_value = float(Start_Y_value) # convert into float\r\n        \r\n        #---------- Get Start_Z_value ----------#\r\n        Start_Z_position = str.find('Z')\r\n        Start_Zcomma_position = str.find(')', Start_Z_position) # 找X后面第一个逗号的position\r\n        Start_Z_value = str[Start_Z_position+4 : Start_Zcomma_position] # get x_value\r\n        Start_Z_value = float(Start_Z_value) # convert into float\r\n        \r\n        #---------- Get End_X_value ----------#\r\n        End_X_position = str.find('X', Start_Xcomma_position)\r\n        End_Xcomma_position = str.find(',', End_X_position) # 找X后面第一个逗号的position\r\n        End_X_value = str[End_X_position+4 : End_Xcomma_position] # get x_value\r\n        End_X_value = float(End_X_value) # convert into float\r\n\r\n        #---------- Get End_Y_value ----------#\r\n        End_Y_position = str.find('Y', Start_Ycomma_position)\r\n        End_Ycomma_position = str.find(',', End_Y_position) # 找X后面第一个逗号的position\r\n        End_Y_value = str[End_Y_position+4 : End_Ycomma_position] # get x_value\r\n        End_Y_value = float(End_Y_value) # convert into float\r\n        \r\n        #---------- Get End_Z_value ----------#\r\n        End_Z_position = str.find('Z', Start_Zcomma_position)\r\n        End_Zcomma_position = str.find(')', End_Z_position) # 找X后面第一个逗号的position\r\n        End_Z_value = str[End_Z_position+4 : End_Zcomma_position] # get x_value\r\n        End_Z_value = float(End_Z_value) # convert into float\r\n        \r\n        #---------- Create line object ----------#\r\n        line = Line.ByStartPointEndPoint(Point.ByCoordinates(Start_X_value,Start_Y_value,Start_Z_value), Point.ByCoordinates(End_X_value,End_Y_value,End_Z_value))\r\n        \r\n        Curves.append(line)\r\n\r\n    return Curves\r\n    \r\n\r\nList = IN\r\n\r\nOUT = Get_Curve(List)",
+      "Engine": "CPython3",
+      "VariableInputPorts": true,
+      "Id": "1ff2685e0b5e42178e41bcd8ff839d55",
+      "Inputs": [
+        {
+          "Id": "94cddd63a5c64d15bc2e82d4f51b96f1",
+          "Name": "IN[0]",
+          "Description": "Input #0",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Outputs": [
+        {
+          "Id": "dd3f337f15904dba8aa4cf602fc902c7",
+          "Name": "OUT",
+          "Description": "Python 脚本结果",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Replication": "Disabled",
+      "Description": "Runs an embedded Python script."
+    },
+    {
+      "ConcreteType": "DSRevitNodesUI.Levels, DSRevitNodesUI",
+      "SelectedIndex": 0,
+      "SelectedString": "Level 1",
+      "NodeType": "ExtensionNode",
+      "Id": "b9cbaacd986945fb81ba2b004d77a5d6",
+      "Inputs": [],
+      "Outputs": [
+        {
+          "Id": "b80a7c112a9b45dfa10165eb64996a9f",
+          "Name": "Levels",
+          "Description": "The selected Levels",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Replication": "Disabled",
+      "Description": "Select a level in the active document"
+    }
+  ],
+  "Connectors": [
+    {
+      "Start": "8754e3c514af45218e2f26796ad3ea51",
+      "End": "8a3dc5b4ebed4c0dbb552cd31959ba2c",
+      "Id": "b61c85e9940e421296f4d39009949c9b",
+      "IsHidden": "False"
+    },
+    {
+      "Start": "1ae979b2aee04a1687676ba0f2552053",
+      "End": "913869241a6d4f7cb3bfd54b2e9e1862",
+      "Id": "138aa3252d274619ac48a3db2fe8e12e",
+      "IsHidden": "False"
+    },
+    {
+      "Start": "ed6c00e6e0604ef894d3ec88d1932e94",
+      "End": "dfd580ee08d0460b95e869c10987e2c2",
+      "Id": "a90f5c61e0b5483e8b748c4b8372d48a",
+      "IsHidden": "False"
+    },
+    {
+      "Start": "e9c3cb6324fc4b9b92a639982498fdeb",
+      "End": "2deda1271c93444c9a56b30b06040cb6",
+      "Id": "cd1935ca6be94064a9e9b1af8d53f066",
+      "IsHidden": "False"
+    },
+    {
+      "Start": "6aa16347d74a4746951635471f0f3db7",
+      "End": "18e86fc33bd54454875eb69da612a748",
+      "Id": "efc4ac0ed1904ed88827883e98f81eda",
+      "IsHidden": "False"
+    },
+    {
+      "Start": "2d039b819f3b4a9d98d1621a49a7fdf8",
+      "End": "2f25fda2dcdd42119e0213806de64226",
+      "Id": "180104adb1ff4294aba11b561365b369",
+      "IsHidden": "False"
+    },
+    {
+      "Start": "f7c50c568a1547179d4329752151f6fc",
+      "End": "94cddd63a5c64d15bc2e82d4f51b96f1",
+      "Id": "a13060ccaafa4cfeb374cec9035396c7",
+      "IsHidden": "False"
+    },
+    {
+      "Start": "dd3f337f15904dba8aa4cf602fc902c7",
+      "End": "9a7bf80c1af3498d9229109c41930d50",
+      "Id": "9c824c1180b64c17a8902552beb2e760",
+      "IsHidden": "False"
+    },
+    {
+      "Start": "b80a7c112a9b45dfa10165eb64996a9f",
+      "End": "11f14c04aad4466ea0820b1e92be5373",
+      "Id": "3a128b0511e94f1ca239412b05f674d2",
+      "IsHidden": "False"
+    }
+  ],
+  "Dependencies": [],
+  "NodeLibraryDependencies": [],
+  "Thumbnail": "",
+  "GraphDocumentationURL": null,
+  "ExtensionWorkspaceData": [
+    {
+      "ExtensionGuid": "28992e1d-abb9-417f-8b1b-05e053bee670",
+      "Name": "Properties",
+      "Version": "2.13",
+      "Data": {}
+    },
+    {
+      "ExtensionGuid": "DFBD9CC0-DB40-457A-939E-8C8555555A9D",
+      "Name": "Generative Design",
+      "Version": "2.0",
+      "Data": {}
+    }
+  ],
+  "Author": "",
+  "Linting": {
+    "activeLinter": "None",
+    "activeLinterId": "7b75fb44-43fd-4631-a878-29f4d5d8399a",
+    "warningCount": 0,
+    "errorCount": 0
+  },
+  "Bindings": [],
+  "View": {
+    "Dynamo": {
+      "ScaleFactor": 100.0,
+      "HasRunWithoutCrash": true,
+      "IsVisibleInDynamoLibrary": true,
+      "Version": "2.13.1.3887",
+      "RunType": "Manual",
+      "RunPeriod": "1000"
+    },
+    "Camera": {
+      "Name": "Background Preview",
+      "EyeX": 570.826416015625,
+      "EyeY": -525.42059326171875,
+      "EyeZ": 2896.14990234375,
+      "LookX": 504.4024658203125,
+      "LookY": -546.43585205078125,
+      "LookZ": -2437.944091796875,
+      "UpX": 0.0,
+      "UpY": 1.0,
+      "UpZ": 0.0
+    },
+    "ConnectorPins": [],
+    "NodeViews": [
+      {
+        "Name": "Data.ImportExcel",
+        "ShowGeometry": true,
+        "Id": "cc8298e73b7b49719270fad00d5d761c",
+        "IsSetAsInput": false,
+        "IsSetAsOutput": false,
+        "Excluded": false,
+        "X": 572.77220191686661,
+        "Y": 39.5793793731026
+      },
+      {
+        "Name": "String",
+        "ShowGeometry": true,
+        "Id": "df205bbac1b149abb83caac70e87d97b",
+        "IsSetAsInput": false,
+        "IsSetAsOutput": false,
+        "Excluded": false,
+        "X": 333.86613253193491,
+        "Y": 129.20078456810131
+      },
+      {
+        "Name": "File Path",
+        "ShowGeometry": true,
+        "Id": "180d3c362c9b44569d05cdadad688df9",
+        "IsSetAsInput": false,
+        "IsSetAsOutput": false,
+        "Excluded": false,
+        "X": -22.130869507711168,
+        "Y": -81.9332971722016
+      },
+      {
+        "Name": "File From Path",
+        "ShowGeometry": true,
+        "Id": "54fe110a66424384b648cd929ff71d21",
+        "IsSetAsInput": false,
+        "IsSetAsOutput": false,
+        "Excluded": false,
+        "X": 324.3512955220599,
+        "Y": -78.671614428068665
+      },
+      {
+        "Name": "Code Block",
+        "ShowGeometry": true,
+        "Id": "0b3769be31dd4373a5fd372b3203b0a8",
+        "IsSetAsInput": false,
+        "IsSetAsOutput": false,
+        "Excluded": false,
+        "X": 1291.6229955887379,
+        "Y": 570.68878434087344
+      },
+      {
+        "Name": "Wall Types",
+        "ShowGeometry": true,
+        "Id": "59a17c98e40a43a384180bbbc84dddd6",
+        "IsSetAsInput": false,
+        "IsSetAsOutput": false,
+        "Excluded": false,
+        "X": 1155.17347118015,
+        "Y": 899.49110692979764
+      },
+      {
+        "Name": "Wall.ByCurveAndHeight",
+        "ShowGeometry": true,
+        "Id": "8494699d2f3647559d8095ab28412315",
+        "IsSetAsInput": false,
+        "IsSetAsOutput": false,
+        "Excluded": false,
+        "X": 1635.1065144508789,
+        "Y": 583.24594477803328
+      },
+      {
+        "Name": "List.Flatten",
+        "ShowGeometry": true,
+        "Id": "cc98e8d9f07748d1b2bbcb8941a07d0d",
+        "IsSetAsInput": false,
+        "IsSetAsOutput": false,
+        "Excluded": false,
+        "X": 880.832942075939,
+        "Y": 419.5583972369086
+      },
+      {
+        "Name": "Python Script",
+        "ShowGeometry": true,
+        "Id": "1ff2685e0b5e42178e41bcd8ff839d55",
+        "IsSetAsInput": false,
+        "IsSetAsOutput": false,
+        "Excluded": false,
+        "X": 1272.9499731856408,
+        "Y": 400.22784143427839
+      },
+      {
+        "Name": "Levels",
+        "ShowGeometry": true,
+        "Id": "b9cbaacd986945fb81ba2b004d77a5d6",
+        "IsSetAsInput": false,
+        "IsSetAsOutput": false,
+        "Excluded": false,
+        "X": 1242.0871267395476,
+        "Y": 720.05795123015344
+      }
+    ],
+    "Annotations": [],
+    "X": 298.15904597181031,
+    "Y": 295.2629490427837,
+    "Zoom": 0.65932760340545182
+  }
+}
