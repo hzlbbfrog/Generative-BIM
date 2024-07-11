@@ -4,7 +4,7 @@ This is a simple tutorial about implementing the pipeline.
 ## ☝️ Stage 1: From 3D BIM models to 2D architectual drawings
 
 ## ✌️ Stage 2: Intelligent structural design using Diffusion Models
-You can refer to.
+You can refer to the [main page](https://github.com/hzlbbfrog/Generative-BIM/).
 
 ## 👌 Stage 3: From 2D Structural drawings to 3D BIM models
 Here, we take [test (1)_7degree.png](https://github.com/hzlbbfrog/Generative-BIM/blob/main/Structural%20design%20pipeline/Stage_3-From_image_2_BIM/test%20(1)_7degree.png) as an example to illustrate the process to generate the shear walls.
