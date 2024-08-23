@@ -14,7 +14,7 @@ This repository mainly includes 4 parts:
       This pipeline contains 4 stages. Stage I and Stage III are converting 3D BIM models to 2D architectural drawings and converting 2D structural drawings to 3D BIM models.  
       We write Python and Dynamo scripts to implement the two stages.  
       The simple **tutorial** and **implementation code** are publicly available at [Structural design pipeline](https://github.com/hzlbbfrog/Generative-BIM/tree/main/Structural%20design%20pipeline).
-- [ ] Stage II introduces the the **P**hysics-based **C**onditional **D**iffusion **M**odel **(PCDM)**. The code is openly accessible at.
+- [ ] Stage II introduces the the **P**hysics-based **C**onditional **D**iffusion **M**odel **(PCDM)**. The code is openly accessible at [PCDM](https://github.com/hzlbbfrog/Generative-BIM/tree/main/PCDM).
 - [ ] **Modified-dataset**.
 - [ ] **Evaluation code** including Score_IoU and FID.
 
