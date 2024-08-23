@@ -3,17 +3,19 @@
   <img src="./figures/Generative-BIM.svg" width="50%">
 </div>
 
-# Generative-AIBIM
-This repository is the official implementation of the **Generative** Structural Design Integrating **BIM** and Diffusion Model **(Generative-BIM)**.  
+# Generative AIBIM
+This repository is the official implementation of the Structural Design Integrating **BIM** and **Generative AI** **(Generative AIBIM)**.  
 - :orange: [[ArXiv Paper](https://arxiv.org/abs/2311.04052)]
 - :watermelon:  [[Project page](http://zl-he.com/Generative-BIM/)]
 
 ## ✒️ Introduction
 This repository mainly includes 4 parts:  
-- [ ] **Structural design pipeline integrating BIM and generative AI**  
-      Namely, Python and Dynamo code to convert 3D BIM models to 2D architectural drawings and to convert 2D structural drawings to 3D BIM models. Link → [Structural design pipeline](https://github.com/hzlbbfrog/Generative-BIM/tree/main/Structural%20design%20pipeline)
+- [ ] **Generative AIBIM: Structural design pipeline integrating BIM and generative AI**  
+      This pipeline contains 4 stages. Stage I and Stage III are converting 3D BIM models to 2D architectural drawings and converting 2D structural drawings to 3D BIM models.  
+      We write Python and Dynamo scripts to implement the two stages.  
+      The simple **tutorial** and **implementation code** are publicly available at [Structural design pipeline](https://github.com/hzlbbfrog/Generative-BIM/tree/main/Structural%20design%20pipeline).
+- [ ] Stage II introduces the the **P**hysics-based **C**onditional **D**iffusion **M**odel **(PCDM)**. The code is openly accessible at.
 - [ ] **Modified-dataset**.
-- [ ] Python code of a **P**hysics-based **C**onditional **D**iffusion **M**odel **(PCDM)**.
 - [ ] **Evaluation code** including Score_IoU and FID.
 
 ## 📅 Updates
