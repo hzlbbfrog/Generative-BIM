@@ -19,6 +19,8 @@ This repository mainly includes 4 parts:
 - [ ] **Evaluation code** including Score_IoU and FID.
 
 ## 📅 Updates
+- **`2024/09/01`**: Our paper is publicly available. Link → [Journal version](https://www.sciencedirect.com/science/article/pii/S1566253524004329?via%3Dihub).
+- **`2024/08/26`**: Our paper is finally accepted by a prestigious journal, Information Fusion!
 - **`2023/11/07`**: The preprint of our paper is available online on arXiv. Link → [Arxiv Paper](https://arxiv.org/abs/2311.04052).
 - **`2023/11/04`**: The preprint of our paper is submitted to arXiv.
 - **`2022/12/06`**: This repository is built up! It is for the course project of **CIVL 5220 Building Information Modeling and Digital Construction**. Course instructor: [Jack C.P. Cheng](https://www.ce.ust.hk/people/jack-chin-pang-cheng-zhengzhanpeng), Department of Civil and Environmental Engineering, HKUST.
