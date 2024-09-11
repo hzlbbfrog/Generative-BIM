@@ -4,7 +4,7 @@
 </div>
 
 # Generative AIBIM
-This repository is the official implementation of the Structural Design Integrating **BIM** and **Generative AI** **(Generative AIBIM)**.  
+This repository is the official implementation of the Structural Design Pipeline Integrating **BIM** and **Generative AI** **(Generative AIBIM)**.  
 - :orange: [[ArXiv Paper](https://arxiv.org/abs/2311.04052)]
 - :watermelon:  [[Project page](http://zl-he.com/Generative-BIM/)]
 
@@ -28,7 +28,7 @@ This repository mainly includes 4 parts:
 ## 🥰 Cite Generative AIBIM!
 You are very welcome to cite our paper! The BibTeX entry is as follows:
 ```BibTeX
-@article{Generative AIBIM,
+@article{Generative_AIBIM,
 title = {Generative AIBIM: An automatic and intelligent structural design pipeline integrating BIM and generative AI},
 journal = {Information Fusion},
 volume = {114},
