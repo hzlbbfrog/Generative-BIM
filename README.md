@@ -25,8 +25,22 @@ This repository mainly includes 4 parts:
 - **`2023/11/04`**: The preprint of our paper is submitted to arXiv.
 - **`2022/12/06`**: This repository is built up! It is for the course project of **CIVL 5220 Building Information Modeling and Digital Construction**. Course instructor: [Jack C.P. Cheng](https://www.ce.ust.hk/people/jack-chin-pang-cheng-zhengzhanpeng), Department of Civil and Environmental Engineering, HKUST.
 
-## 💘 Acknowledgements
-
-
-## 👅 Citing Generative-BIM!
-You are very welcome to cite our paper!
+## 🥰 Cite Generative AIBIM!
+You are very welcome to cite our paper! The BibTeX entry is as follows:
+```BibTeX
+@article{Generative AIBIM,
+title = {Generative AIBIM: An automatic and intelligent structural design pipeline integrating BIM and generative AI},
+journal = {Information Fusion},
+volume = {114},
+pages = {102654},
+year = {2025},
+issn = {1566-2535},
+doi = {https://doi.org/10.1016/j.inffus.2024.102654},
+url = {https://www.sciencedirect.com/science/article/pii/S1566253524004329},
+author = {Zhili He and Yu-Hsing Wang and Jian Zhang},
+keywords = {Generative AI, Diffusion model, Building information modeling, Intelligent structural design, Shear wall structure}
+}
+```
+## 💓 Acknowledgements
+This repo benefits from [OpenAI improved-diffusion](https://github.com/openai/improved-diffusion/tree/main), [DDIM](https://github.com/ermongroup/ddim), and [StructGAN](https://github.com/wenjie-liao/StructGAN_v1).  
+Thanks for their wonderful works!
