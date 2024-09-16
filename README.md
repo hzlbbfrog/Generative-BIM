@@ -7,7 +7,7 @@
 This repository is the official implementation of the Structural Design Pipeline Integrating **BIM** and **Generative AI** **(Generative AIBIM)**.  
 - :orange: **Paper:** [[Journal Version]](https://www.sciencedirect.com/science/article/pii/S1566253524004329?via%3Dihub) and [[ArXiv Version](https://arxiv.org/abs/2311.04052)]
 - :watermelon: **Webpage:**  [[Project page](http://zl-he.com/Generative-BIM/)]
-
+- 🍓 **Authors:** [Zhili He](http://zl-he.com/) (HKUST), [Yu-Hsing Wang](https://ce.hkust.edu.hk/people/yu-hsing-wang-wangyouxing) (HKUST), and [Jian Zhang](https://civil.seu.edu.cn/zj/list.htm) (Southeast University)
 ## ✒️ Introduction
 This repository mainly includes 4 parts:  
 - [ ] **Generative AIBIM: Structural design pipeline integrating BIM and generative AI**  
@@ -26,6 +26,7 @@ This repository mainly includes 4 parts:
 - **`2022/12/06`**: This repository is built up! It is for the course project of **CIVL 5220 Building Information Modeling and Digital Construction**. Course instructor: [Jack C.P. Cheng](https://www.ce.ust.hk/people/jack-chin-pang-cheng-zhengzhanpeng), Department of Civil and Environmental Engineering, HKUST.
 
 ## 🥰 Cite Generative AIBIM!
+If you have any problems, please do not hesitate to contact us!
 You are very welcome to cite our paper! The BibTeX entry is as follows:
 ```BibTeX
 @article{Generative_AIBIM,
