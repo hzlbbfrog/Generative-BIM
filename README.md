@@ -27,7 +27,8 @@ This repository mainly includes 4 parts:
 
 ## 🥰 Cite Generative AIBIM!
 If you have any problems, please do not hesitate to contact us!
-You are very welcome to cite our paper! The BibTeX entry is as follows:
+You are very welcome to cite our paper!  
+The BibTeX entry is as follows:
 ```BibTeX
 @article{Generative_AIBIM,
 title = {Generative AIBIM: An automatic and intelligent structural design pipeline integrating BIM and generative AI},
