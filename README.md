@@ -17,6 +17,7 @@ This repository mainly includes 4 parts:
 - [ ] Stage II introduces the the **P**hysics-based **C**onditional **D**iffusion **M**odel **(PCDM)**. The code is openly accessible at [PCDM](https://github.com/hzlbbfrog/Generative-BIM/tree/main/PCDM).
 - [ ] **Modified-dataset**.
 - [ ] **Evaluation code** including Score_IoU and FID.
+- [ ] DDIM sampling for PCDM
 
 ## 📅 Updates
 - **`2024/09/01`**: Our paper is publicly available. Link → [Journal version](https://www.sciencedirect.com/science/article/pii/S1566253524004329?via%3Dihub).
