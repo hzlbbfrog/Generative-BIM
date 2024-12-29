@@ -47,5 +47,5 @@ keywords = {Generative AI, Diffusion model, Building information modeling, Intel
 }
 ```
 ## 💓 Acknowledgements
-This repo benefits from [OpenAI improved-diffusion](https://github.com/openai/improved-diffusion/tree/main), [DDIM](https://github.com/ermongroup/ddim), and [StructGAN](https://github.com/wenjie-liao/StructGAN_v1).  
+This repo benefits from [OpenAI improved-diffusion](https://github.com/openai/improved-diffusion/tree/main), [DDIM](https://github.com/ermongroup/ddim), [DPM-Solver](https://github.com/LuChengTHU/dpm-solver), and last but not least, [StructGAN](https://github.com/wenjie-liao/StructGAN_v1).  
 Thanks for their wonderful works!
