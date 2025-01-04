@@ -5,7 +5,7 @@
 
 # Generative AIBIM
 This repository is the official implementation of the Structural Design Pipeline Integrating **BIM** and **Generative AI** **(Generative AIBIM)**.  
-- :orange: **Paper:** [Journal Version](https://www.sciencedirect.com/science/article/pii/S1566253524004329) and [[arXiv Version](https://arxiv.org/abs/2311.04052)]. I recommend the arXiv version as it offers a better presentation of the equations and figures.
+- :orange: **Paper:** [[Journal Version](https://www.sciencedirect.com/science/article/pii/S1566253524004329)] and [[arXiv Version](https://arxiv.org/abs/2311.04052)]. I recommend the [arXiv version](https://arxiv.org/abs/2311.04052) as it offers a better presentation of the equations and figures.
 - :watermelon: **Webpage:**  [[Project page](http://zl-he.com/Generative-BIM/)]
 - 🍓 **Authors:** [Zhili He](http://zl-he.com/) (HKUST), [Yu-Hsing Wang](https://ce.hkust.edu.hk/people/yu-hsing-wang-wangyouxing) (HKUST), and [Jian Zhang](https://civil.seu.edu.cn/zj/list.htm) (Southeast University)
 ## ✒️ Introduction
