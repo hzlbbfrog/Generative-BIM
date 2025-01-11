@@ -32,6 +32,8 @@ This repository mainly includes 4 parts:
 If you have any problems, please do not hesitate to contact us!
 You are very welcome to cite our paper!  
 The BibTeX entry is as follows:
+
+(1) Generative AIBIM
 ```BibTeX
 @article{Generative_AIBIM,
 title = {Generative AIBIM: An automatic and intelligent structural design pipeline integrating BIM and generative AI},
@@ -46,6 +48,10 @@ author = {Zhili He and Yu-Hsing Wang and Jian Zhang},
 keywords = {Generative AI, Diffusion model, Building information modeling, Intelligent structural design, Shear wall structure}
 }
 ```
+
+(2) DDIM sampling for Generative AIBIM
+
+
 ## 💓 Acknowledgements
 This repo benefits from [OpenAI improved-diffusion](https://github.com/openai/improved-diffusion/tree/main), [DDIM](https://github.com/ermongroup/ddim), [DPM-Solver](https://github.com/LuChengTHU/dpm-solver), and last but not least, [StructGAN](https://github.com/wenjie-liao/StructGAN_v1).  
 Thanks for their wonderful works!
