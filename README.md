@@ -31,7 +31,7 @@ This repository mainly includes 4 parts:
 ## 🥰 Cite Generative AIBIM!
 If you have any problems, please do not hesitate to contact us!
 You are very welcome to cite our paper!  
-The BibTeX entry is as follows:
+The BibTeX entries of related papers are as follows:
 
 (1) Generative AIBIM
 ```BibTeX
@@ -49,7 +49,8 @@ keywords = {Generative AI, Diffusion model, Building information modeling, Intel
 }
 ```
 
-(2) DDIM sampling for Generative AIBIM
+(2) DDIM sampling for Generative AIBIM  
+This paper is accepted by [IPC 2024](https://ipcannual.com/proceedings/).
 ```BibTeX
 @article{DDIM_Generative_AIBIM,
 title = {DDIM sampling for Generative AIBIM, a faster intelligent structural design framework},
