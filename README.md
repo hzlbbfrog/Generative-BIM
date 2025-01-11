@@ -50,6 +50,17 @@ keywords = {Generative AI, Diffusion model, Building information modeling, Intel
 ```
 
 (2) DDIM sampling for Generative AIBIM
+```BibTeX
+@article{DDIM_Generative_AIBIM,
+title = {DDIM sampling for Generative AIBIM, a faster intelligent structural design framework},
+author={Zhili He and Yu-Hsing Wang},
+year={2024},
+eprint={2412.20899},
+archivePrefix={arXiv},
+primaryClass={cs.CV},
+url={https://arxiv.org/abs/2412.20899}
+}
+```
 
 
 ## 💓 Acknowledgements
