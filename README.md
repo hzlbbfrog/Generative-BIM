@@ -51,7 +51,7 @@ keywords = {Generative AI, Diffusion model, Building information modeling, Intel
 (2) Generation framework
 
 (3) DDIM sampling for Generative AIBIM  
-This paper is accepted by [IPC 2024](https://ipcannual.com/proceedings/).
+This paper is accepted by [IPC 2024](https://ipcannual.com/proceedings/), Perth, Australia.
 ```BibTeX
 @article{DDIM_Generative_AIBIM,
 title = {DDIM sampling for Generative AIBIM, a faster intelligent structural design framework},
