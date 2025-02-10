@@ -48,8 +48,9 @@ author = {Zhili He and Yu-Hsing Wang and Jian Zhang},
 keywords = {Generative AI, Diffusion model, Building information modeling, Intelligent structural design, Shear wall structure}
 }
 ```
+(2) Generation framework
 
-(2) DDIM sampling for Generative AIBIM  
+(3) DDIM sampling for Generative AIBIM  
 This paper is accepted by [IPC 2024](https://ipcannual.com/proceedings/).
 ```BibTeX
 @article{DDIM_Generative_AIBIM,
