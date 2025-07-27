@@ -21,10 +21,10 @@ This repository mainly includes 4 parts:
 
 ## 📅 Updates
 - **`2025/07/27`**: We upload the proposed dataset. Link → [Dataset](https://github.com/hzlbbfrog/Generative-BIM/tree/main/Dataset). Because I have to do an urgent project first, I have no sufficient time to manage this project. I will finish this in the future.
-- **`2025/03/11`**: Our paper "Revisit the Generation Framework in Generative AI-Based Intelligent Structural Design" is accepted by [i3CE 2025](https://www.lsu.edu/eng/cm/i3ce2025/index.php).
+- **`2025/03/11`**: Our paper **"Revisit the Generation Framework in Generative AI-Based Intelligent Structural Design"** is accepted by [i3CE 2025](https://www.lsu.edu/eng/cm/i3ce2025/index.php).
 - **`2024/09/01`**: Our paper is publicly available. Link → [Journal version](https://www.sciencedirect.com/science/article/pii/S1566253524004329?via%3Dihub).
 - **`2024/08/26`**: Our paper is finally accepted by a prestigious journal, [Information Fusion](https://www.sciencedirect.com/journal/information-fusion)!
-- **`2024/06/20`**: Our paper "DDIM sampling for Generative AIBIM, a faster intelligent structural design framework" is accepted by [IPC 2024](https://ipcannual.com/about/).
+- **`2024/06/20`**: Our paper **"DDIM sampling for Generative AIBIM, a faster intelligent structural design framework"** is accepted by [IPC 2024](https://ipcannual.com/about/).
 - **`2023/11/07`**: The preprint of our paper is available online on arXiv. Link → [Arxiv Paper](https://arxiv.org/abs/2311.04052).
 - **`2023/11/04`**: The preprint of our paper is submitted to arXiv.
 - **`2022/12/06`**: This repository is built up! It is for the course project of **CIVL 5220 Building Information Modeling and Digital Construction**. Course instructor: [Jack C.P. Cheng](https://www.ce.ust.hk/people/jack-chin-pang-cheng-zhengzhanpeng), Department of Civil and Environmental Engineering, HKUST.
