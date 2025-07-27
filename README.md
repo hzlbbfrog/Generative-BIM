@@ -20,7 +20,7 @@ This repository mainly includes 4 parts:
 - [ ] DDIM sampling for PCDM
 
 ## 📅 Updates
-- **`2024/09/01`**: I upload the dataset. Link → [Dataset](https://github.com/hzlbbfrog/Generative-BIM/tree/main/Dataset). Because I have to do an urgent project first, I have no sufficient time to manage this project. I will finish this in the future.
+- **`2025/07/27`**: I upload the dataset. Link → [Dataset](https://github.com/hzlbbfrog/Generative-BIM/tree/main/Dataset). Because I have to do an urgent project first, I have no sufficient time to manage this project. I will finish this in the future.
 - **`2024/09/01`**: Our paper is publicly available. Link → [Journal version](https://www.sciencedirect.com/science/article/pii/S1566253524004329?via%3Dihub).
 - **`2024/08/26`**: Our paper is finally accepted by a prestigious journal, [Information Fusion](https://www.sciencedirect.com/journal/information-fusion)!
 - **`2023/11/07`**: The preprint of our paper is available online on arXiv. Link → [Arxiv Paper](https://arxiv.org/abs/2311.04052).
