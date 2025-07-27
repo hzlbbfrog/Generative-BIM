@@ -31,7 +31,7 @@ This repository mainly includes 4 parts:
 
 ## 🎖️ Experimental results
 
-## Reserch pathway
+## ⛳ Research pathway
 
 ## 🥰 Cite Generative AIBIM!
 If you have any problems, please do not hesitate to contact us!
