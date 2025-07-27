@@ -15,7 +15,7 @@ This repository mainly includes 4 parts:
       We write Python and Dynamo scripts to implement the two stages.  
       The simple **tutorial** and **implementation code** are publicly available at [Structural design pipeline](https://github.com/hzlbbfrog/Generative-BIM/tree/main/Structural%20design%20pipeline).
 - [ ] Stage II introduces the the **P**hysics-based **C**onditional **D**iffusion **M**odel **(PCDM)**. The code is openly accessible at [PCDM](https://github.com/hzlbbfrog/Generative-BIM/tree/main/PCDM).
-- [ ] **Modified-dataset**.
+- [ ] [**Modified-dataset**](https://github.com/hzlbbfrog/Generative-BIM/tree/main/Dataset). We establish a high-quality and unified dataset, adapted from the dataset in the StructGAN paper.
 - [ ] **Evaluation code** including Score_IoU and FID.
 - [ ] DDIM sampling for PCDM
 
