@@ -31,6 +31,8 @@ This repository mainly includes 4 parts:
 
 ## 🎖️ Experimental results
 
+## Reserch pathway
+
 ## 🥰 Cite Generative AIBIM!
 If you have any problems, please do not hesitate to contact us!
 You are very welcome to cite our paper!  
@@ -66,7 +68,7 @@ url={https://arxiv.org/abs/2412.20899}
 }
 ```
 
-(3) Revisit the Generation Framework in Generative AI-Based Intelligent Structural Design
+(3) Revisit the Generation Framework in Generative AI-Based Intelligent Structural Design  
 This paper is accepted by [i3CE 2025](https://www.lsu.edu/eng/cm/i3ce2025/index.php), New Orleans, LA, USA.
 
 
